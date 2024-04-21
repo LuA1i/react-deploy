@@ -46,3 +46,18 @@ a {
   background: #212ea0;
   color: #fff;
 }
+
+/* Media Query */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn.btn-nav {
+    padding: 10px 15px;
+    width: 120px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
